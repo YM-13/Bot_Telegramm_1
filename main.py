@@ -5,7 +5,7 @@
 # API_URL: str = 'https://api.telegram.org/bot'
 # API_CATS_URL: str = 'https://api.thecatapi.com/v1/images/search'
 #
-# BOT_TOKEN: str = '6212096846:AAEW3aKYpvclR8dydmVNYCsjeVRNcuJJMvU'
+# BOT_TOKEN: str = ''
 # TEXT: str = 'Привет! Лови котика!'
 # ERROR_TEXT: str = 'Здесь должна была быть картинка с котиком :('
 #
@@ -41,11 +41,12 @@
 
 
 from aiogram import Bot, Dispatcher
-from aiogram.filters import Command
+from aiogram.dispatcher.filters import Command
 from aiogram.types import Message
 
+
 # Вместо BOT TOKEN HERE нужно вставить токен вашего бота, полученный у @BotFather
-API_TOKEN: str = 'BOT TOKEN HERE'
+API_TOKEN: str = ''
 
 # Создаем объекты бота и диспетчера
 bot: Bot = Bot(token=API_TOKEN)
