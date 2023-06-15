@@ -41,7 +41,7 @@
 
 
 from aiogram import Bot, Dispatcher
-from aiogram.dispatcher.filters import Command
+from aiogram.filters import Command
 from aiogram.types import Message
 
 
